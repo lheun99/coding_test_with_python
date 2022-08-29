@@ -2,7 +2,6 @@
 def rotate_a_matrix_by_90_degree(a):
     n = len(a)  #행
     m = len(a[0])  #열
-
     result = [[0] * n for _ in range(m)]
 
     for i in range(n):
